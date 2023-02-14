@@ -17,7 +17,15 @@ body {
     padding-right: 3%;
 }
 
-h1,h2,h3,h4,h5,h6 {
+h1 {
+    color: var(--color3);
+}
+
+h2,h3 {
+    color: var(--color2);
+}
+
+h4,h5,h6 {
     color: var(--color1);
 }
 
@@ -28,6 +36,13 @@ header {
     align-items: center;
     padding: 1%;
 }
+
+img {
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 40%;
+    height: auto;
+ }
 
 a:link, a:hover, a:visited {
     text-decoration: none;
@@ -84,6 +99,42 @@ nav a:active {
     padding-left: 10px;
 }
 
+#contact-socials { 
+    display: flex;
+    justify-content: center;
+}
+
+#contact-socials li { 
+    display: flex;
+    min-width: 120px;
+}
+
+#contact-socials img {
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 65%;
+    height: auto;
+    justify-content: space-around;
+ }
+
+ #contact-extra {
+    display: flex;
+    justify-content: center;
+    color: var(--color2);
+ }
+
+ .center-elem {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+ }
+
+ #me {
+    width: 25%;
+    height: auto;
+    box-shadow: 0 0 30px #8c14aa, 0 0 30px #e06abd;
+ }
+
 .cards-container {
     display: flex;
     flex-wrap: wrap;
@@ -138,6 +189,11 @@ nav a:active {
         align-items: center;
         padding: 1%;
     }
+
+    #me {
+        width: 50%;
+        height: auto;
+     }
 
     #navBar {
         display: flex;
